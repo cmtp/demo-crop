@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="bower_components/ng-img-crop/compile/minified/ng-img-crop.css">
+    <link rel="stylesheet" href="css/app.css">
 </head>
-<body ng-app="app" ng-controller="CropController as vm">
-    <form name="cropImage">
+<body ng-app="app" ng-controller="CropController">
+    <form name="myForm">
         <div>Crop Image and Upload</div>
         <button ngf-select ng-model="picFile" accept="image/*">
             Select Picture</button>
@@ -32,7 +34,7 @@
 <script src="node_modules/angular/angular.min.js"></script>
 <script src="node_modules/ng-file-upload/dist/ng-file-upload-shim.min.js"></script>
 <script src="node_modules/ng-file-upload/dist/ng-file-upload.min.js"></script>
-
+<script src="bower_components/ng-img-crop/compile/minified/ng-img-crop.js"></script>
 <script src="app/app.module.js"></script>
 <script src="app/crop/crop.module.js"></script>
 <script src="app/crop/crop.controller.js"></script>
