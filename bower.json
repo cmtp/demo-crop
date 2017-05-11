@@ -1,0 +1,23 @@
+{
+  "name": "crop-demo",
+  "description": "this is a demo crop for angularjs",
+  "main": "index.js",
+  "authors": [
+    "ctola"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "crop"
+  ],
+  "homepage": "https://github.com/cmtp/demo-crop",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ng-img-crop": "ngImgCrop#^0.3.2"
+  }
+}
